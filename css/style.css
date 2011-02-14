@@ -1,0 +1,245 @@
+/*
+Stylesheet for the rvw Loop plugin
+Author URI: http://vanweerd.com
+Description: Custom loop with columns
+Version: 0.9.0
+Author: Ronald van Weerd
+*/
+
+/*********************************************
+	Generic code
+*********************************************/
+.rvw_loop .clearcol {
+    clear: both;
+}
+
+.rvw_loop .col {
+    float: left;
+    margin: 10px 0;
+    padding: 0;
+}
+
+/*********************************************
+	Previous/Next Page Navigation
+*********************************************/
+.rvw_loop .paging {
+	clear: both; /* To clear any floats */
+	margin: 0;
+	padding: 0;
+}
+
+.rvw_loop .alignleft {
+   float: left;
+   margin: 0px 8px 8px 0px;
+}
+
+.rvw_loop .alignright {
+   float: right;
+   margin: 0px 0px 8px 8px;
+}
+
+/*******************************************************************************
+        Default loop, adjust this code to your likings
+		or duplicate this entire block for each loop.
+********************************************************************************/
+
+.loop a {
+}
+
+.loop a:hover {
+}
+
+.loop .attachment-loop {
+ }
+
+.loop .title,
+.loop .title a {
+}
+
+.loop .date  {
+}
+
+.loop .date .label {
+}
+
+.loop .author,
+.loop .author a {
+}
+
+.loop .author .label {
+}
+
+.loop .comments,
+.loop .comments a {
+}
+
+.loop .comments .label {
+}
+
+.loop .content {
+}
+
+.loop .categories,
+.loop .categories a {
+}
+
+.loop .categories .label {
+}
+
+.loop .tags,
+.loop .tags a {
+}
+
+.loop .tags .label {
+}
+
+/*******************************************************************************
+        First sample loop, delete this if you don't use it
+********************************************************************************/
+.loop1 a {
+	color: #e1771e;
+	text-decoration: none;
+}
+
+.loop1 a:hover {
+	color: blue;
+	text-decoration: underline;
+}
+
+.loop1 .attachment-loop1 {
+    float: left;
+    margin: 5px 8px 8px 0 !important;
+    border: 1px solid purple;
+    height: 150px !important;
+    width: 150px !important;
+}
+
+.loop1 .title,
+.loop1 .title a {
+    color: purple;
+    margin: 0 0 5px 0;
+}
+
+.loop1 .date  {
+    color: grey;
+    margin: 0 5px 0 0;
+}
+
+.loop1 .date .label {
+}
+
+.loop1 .author,
+.loop1 .author a {
+    color: teal;
+}
+
+.loop1 .author .label {
+}
+
+.loop .comments,
+.loop .comments a {
+}
+
+.loop .comments .label {
+}
+
+.loop1 .content {
+    float: left;
+    color: black;
+}
+
+.loop1 .categories,
+.loop1 .categories a {
+    color: maroon;
+}
+
+.loop1 .categories .label {
+}
+
+.loop1 .tags,
+.loop1 .tags a {
+    color: pink;
+}
+
+.loop1 .tags .label {
+}
+
+
+/*******************************************************************************
+        Second sample loop, delete this if you don't use it
+********************************************************************************/
+
+.loop2 {
+	font-family: Georgia, "Times Roman", Arial, Verdana, Courier;
+}
+
+.loop2 a:hover {
+	color: blue;
+	text-decoration: underline;
+}
+
+.loop2 .attachment-loop2 {
+    display: none;
+}
+
+.loop2 .title,
+.loop2 .title a {
+    color: purple;
+    margin: 0 0 5px 0;
+}
+
+.loop2 .date  {
+    color: grey;
+    margin-right: 5px;
+    float: left;
+}
+
+.loop2 .date .label {
+    display: none;
+}
+
+.loop2 .author,
+.loop2 .author a {
+    color: teal;
+}
+
+.loop2 .author .label {
+    display: none;
+}
+
+.loop2 .comments,
+.loop2 .comments a {
+    color: teal;
+}
+
+.loop2 .comments .label {
+    display: none;
+}
+
+.loop2 .content {
+    float: left;
+    color: black;
+}
+
+.loop2 .categories,
+.loop2 .categories a {
+    color: maroon;
+}
+
+.loop2 .categories .label {
+    display: none;
+}
+
+.loop2 .tags,
+.loop2 .tags a {
+    color: pink;
+}
+
+.loop2 .tags .label {
+    display: none;
+}
+
+
+/*******************************************************************************
+	Add your custom loops here
+********************************************************************************/
